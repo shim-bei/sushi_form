@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form練習</title>
+      </head>
+      <body>
+
+        <!--テキストボックスと送信ボタンの設置-->
+        <form method="POST">
+          <input type="text" name="id" placeholder="userID"> <!--type="text"は入力されたテキストをそのまま表示-->
+          　
+          <input type="password" name="pwd" placeholder="Password"> <!--type="password"は入力されたテキストをかくして表示＆＆アイマークをクリックで可視化-->
+          <br>
+          マグロ：
+          
+          <input type="number" name="maguro" list="neta" plaseholder="マグロ">
+          <datalist id="neta">
+            <option value="1"></option>
+            <option value="2"></option>
+          </datalist>  
+         
+         <!-- <input type="number" name="maguro" value="0" /> -->
+         
+          <!-- <br>
+          ウニ：
+          <input type="radio" name="uni" value="0" /> 0
+          <input type="radio" name="uni" value="1" /> 1
+          <input type="radio" name="uni" value="2" /> 2
+          
+          <br> -->
+
+          <br>
+          ウニ：
+          
+          <input type="number" name="uni" list="neta" plaseholder="ウニ">
+          <datalist id="neta">
+            <option value="1"></option>
+            <option value="2"></option>
+          </datalist>  
+
+          <br>
+          エビ：
+          
+          <input type="number" name="ebi" list="neta" plaseholder="エビ">
+          <datalist id="neta">
+            <option value="1"></option>
+            <option value="2"></option>
+          </datalist>  
+
+          <br>
+          玉子：
+          
+          <input type="number" name="tamago" list="neta" plaseholder="玉子">
+          <datalist id="neta">
+            <option value="1"></option>
+            <option value="2"></option>
+          </datalist>  
+
+          <br>
+          イクラ：
+          
+          <input type="number" name="ikura" list="neta" plaseholder="イクラ">
+          <datalist id="neta">
+            <option value="1"></option>
+            <option value="2"></option>
+          </datalist>  
+
+          <br>
+          イカ：
+          
+          <input type="number" name="ika" list="neta" plaseholder="イカ">
+          <datalist id="neta">
+            <option value="1"></option>
+            <option value="2"></option>
+          </datalist> 
+          
+          <input type="submit" value="送信">
+        </form>
+
+        <!--ここまで-->
+
+        
+      </body>
+</html>
